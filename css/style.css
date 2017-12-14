@@ -1,1 +1,86 @@
+/*-----------General-----------*/
+html{
+    font-size: 14px;
+    font-weight: 300;
+}
 
+img{
+    max-width: 100%;
+}
+
+/*-----------HEADER-----------*/
+
+header{
+    position: relative;
+}
+
+header .logo-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 105px;
+    color: #fff;
+}
+
+header .logo-overlay h2{
+    font-size: 44px;
+}
+
+header .logo-overlay h3{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/*-----------LEFT SIDEBAR-----------*/
+
+.left-column{
+    background: #38a4dd;
+    color: #fff;
+}
+
+.left-column span img{
+    max-width: 25px;
+}
+
+.left-col-border{
+    border-bottom: 1px solid #1b87c9;
+}
+
+
+
+/*-----------MAIN-----------*/
+
+.pad {
+    padding: 40px !important;
+
+}
+
+/*-----------EXPERIENCES-----------*/
+
+.experiences{
+    background: #fff;
+    padding: 30px 30px 30px 80px;
+    color: #737373;
+}
+
+.experiences article{
+    padding-top: 20px;
+}
+
+.experiences article + article{
+    border-top: 1px solid #ccc;
+}
+
+.experiences h2{
+    margin-bottom: 20px;
+}
+
+.experiences h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.experiences span{
+    font-size: 16px;
+    color: #38a4dd;
+    font-weight: 300;
+}

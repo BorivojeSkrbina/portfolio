@@ -16,9 +16,10 @@ header{
 
 header .logo-overlay{
     position: absolute;
-    bottom: 0;
-    left: 105px;
+    bottom: 10px;
+    right: 0;
     color: #fff;
+    width: 77%;
 }
 
 header .logo-overlay h2{
@@ -35,14 +36,33 @@ header .logo-overlay h3{
 .left-column{
     background: #38a4dd;
     color: #fff;
+    padding: 30px 0;
 }
 
-.left-column span img{
+.left-column article{
+    padding-right: 45px;
+    width: 80%;
+}
+
+.left-column article p{
+    line-height: 1.8;
+}
+
+.left-column figure{
+    width: 25%;
+}
+
+
+.left-column figure img{
     max-width: 25px;
 }
 
-.left-col-border{
+.left-column article{
     border-bottom: 1px solid #1b87c9;
+}
+
+.about{
+
 }
 
 
@@ -50,16 +70,27 @@ header .logo-overlay h3{
 /*-----------MAIN-----------*/
 
 .pad {
-    padding: 40px !important;
+    padding: 0px;
 
 }
 
 /*-----------EXPERIENCES-----------*/
 
 .experiences{
+    position: relative;
     background: #fff;
-    padding: 30px 30px 30px 80px;
+    padding: 30px 30px 30px 100px;
     color: #737373;
+}
+
+.experiences:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 100%;
+    top: 35px;
+    left: 30px;
+    background: url("assets/work.png") no-repeat;
 }
 
 .experiences article{

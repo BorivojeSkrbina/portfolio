@@ -34,9 +34,10 @@ header .logo-overlay h3{
 /*-----------LEFT SIDEBAR-----------*/
 
 .left-column{
-    background: #38a4dd;
+    background: #356aa0;
     color: #fff;
     padding: 30px 0;
+
 }
 
 .left-column article{
@@ -58,7 +59,7 @@ header .logo-overlay h3{
 }
 
 .left-column article{
-    border-bottom: 1px solid #1b87c9;
+    border-bottom: 1px solid #7C8B9B;
 }
 
 .about{
@@ -81,6 +82,7 @@ header .logo-overlay h3{
     background: #fff;
     padding: 30px 30px 30px 100px;
     color: #737373;
+    
 }
 
 .experiences:after{

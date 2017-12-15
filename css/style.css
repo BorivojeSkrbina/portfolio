@@ -1,4 +1,4 @@
-/*-----------General-----------*/
+/*-----------GENERAL-----------*/
 html{
     font-size: 14px;
     font-weight: 300;
@@ -6,6 +6,10 @@ html{
 
 img{
     max-width: 100%;
+}
+
+h2{
+    font-weight: bold;
 }
 
 /*-----------HEADER-----------*/
@@ -37,10 +41,15 @@ header .logo-overlay h3{
     background: #356aa0;
     color: #fff;
     padding: 30px 0;
+}
 
+.left-column section:last-of-type article{
+    border-bottom: none;
 }
 
 .left-column article{
+    border-bottom: 1px solid #7C8B9B;
+    padding: 15px 0;
     padding-right: 45px;
     width: 80%;
 }
@@ -58,12 +67,45 @@ header .logo-overlay h3{
     max-width: 25px;
 }
 
-.left-column article{
-    border-bottom: 1px solid #7C8B9B;
+
+.left-column .mail a,
+.left-column .mail a:visited{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-.about{
+.left-column .mail a:hover{
+    color: #7C8B9B;
+}
 
+.left-column .skills .skills-wrapper{
+    padding-top: 15px;
+}
+.left-column .skills .skills-wrapper .skill{
+    padding-top: 20px;
+}
+
+.left-column .skills .bar{
+    height: 2px;
+    background: #15416e;
+}
+
+.left-column .skills .bar .bar-progress{
+    height: 2px;
+    background: #fff;
+    width: 90%;
+    position: relative;
+}
+
+.left-column .skills .bar .bar-progress span{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    background: #fff;
+    border-radius: 50%;
 }
 
 
@@ -108,7 +150,6 @@ header .logo-overlay h3{
 }
 
 .experiences h3{
-    font-weight: 300;
     font-size: 20px;
 }
 

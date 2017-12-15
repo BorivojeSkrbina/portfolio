@@ -110,6 +110,8 @@ header .logo-overlay h3{
 
 
 
+
+
 /*-----------MAIN-----------*/
 
 .pad {
@@ -119,15 +121,16 @@ header .logo-overlay h3{
 
 /*-----------EXPERIENCES-----------*/
 
-.experiences{
+
+#right-side-wrapper section{
     position: relative;
     background: #fff;
     padding: 30px 30px 30px 100px;
     color: #737373;
-    
+    margin-bottom: 30px;
 }
 
-.experiences:after{
+#right-side-wrapper section:after{
     position: absolute;
     content: '';
     width: 50px;
@@ -157,4 +160,13 @@ header .logo-overlay h3{
     font-size: 16px;
     color: #38a4dd;
     font-weight: 300;
+}
+
+
+.interests figure img {
+    max-width: 70%;
+}
+
+.interests article {
+    padding-top: 40px;
 }

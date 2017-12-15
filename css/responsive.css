@@ -9,7 +9,9 @@
 
 @media(min-width:768px){
  
-
+.interests figure img {
+    max-width: 70%;
+}
     
 }
 
@@ -20,6 +22,10 @@
    
         .pad {
     padding : 40px !important;
+}
+
+.interests figure img {
+    max-width: 50%;
 }
     
 }

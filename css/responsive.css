@@ -1,26 +1,14 @@
 
 @media(min-width:576px){
 
-    .pad {
-        padding : 40px 0;
-    }
 
     #right-side-wrapper section:after{
         display: block;
     }
     
 
-
-    
-
-
-
-
-
-
-
     #right-side-wrapper section{
-        padding: 30px 30px 30px 100px;
+        padding: 40px 40px 40px 100px;
     }
 
     #right-side-wrapper section h2{
@@ -37,7 +25,7 @@
     }
     
     #right-side-wrapper .links{
-    padding: 30px 100px 30px 100px;
+    padding: 40px 100px 40px 100px;
     }
 
 }

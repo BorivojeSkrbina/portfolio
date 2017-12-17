@@ -130,7 +130,7 @@ header .logo-overlay h3{
 /*-----------MAIN-----------*/
 
 .pad {
-    padding: 0px;
+    padding: 40px;
 
 }
 
@@ -160,8 +160,8 @@ header .logo-overlay h3{
     content: '';
     width: 45px;
     height: 55px;
-    top: 30px;
-    left: 30px;
+    top: 40px;
+    left: 40px;
     background: url("assets/work.png") no-repeat center center;
     background-size: contain;
 }
@@ -171,8 +171,8 @@ header .logo-overlay h3{
     content: '';
     width: 45px;
     height: 55px;
-    top: 30px;
-    left: 30px;
+    top: 40px;
+    left: 40px;
     background: url("assets/graduate.png") no-repeat center center;
     background-size: contain;
 }
@@ -182,8 +182,8 @@ header .logo-overlay h3{
     content: '';
     width: 45px;
     height: 55px;
-    top: 30px;
-    left: 30px;
+    top: 40px;
+    left: 40px;
     background: url("assets/watch.png") no-repeat center center;
     background-size: contain;
 }

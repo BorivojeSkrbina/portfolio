@@ -8,6 +8,10 @@ img{
     max-width: 100%;
 }
 
+p{
+    line-height: 1.7;
+}
+
 h2{
     font-weight: bold;
 }
@@ -136,9 +140,13 @@ header .logo-overlay h3{
 #right-side-wrapper section{
     position: relative;
     background: #fff;
-    padding: 30px 30px 30px 30px;
+    padding: 40px 40px 40px 40px;
     color: #737373;
     margin-bottom: 40px;
+}
+
+#right-side-wrapper section:last-of-type{
+    margin-bottom: 0;
 }
 
 #right-side-wrapper section h2{
@@ -146,7 +154,8 @@ header .logo-overlay h3{
     margin-top: 10px;
 }
 
-#right-side-wrapper .experiences:after{
+#right-side-wrapper .experiences:after,
+#right-side-wrapper .education:after{
     position: absolute;
     content: '';
     width: 45px;
@@ -206,19 +215,29 @@ header .logo-overlay h3{
 }
 
 
-#right-side-wrapper span{
+#right-side-wrapper span.date{
     font-size: 16px;
-    color: #38a4dd;
+    color: #356aa0;
     font-weight: 300;
 }
 
 #right-side-wrapper .links{
-    padding: 30px 30px 30px 30px;
-    }
+    padding: 40px 40px 40px 40px;
+}
 
 
 #right-side-wrapper .links a{
     text-decoration: none;
+    color: #356aa0;
+}
+
+    #right-side-wrapper .letter{
+        padding: 40px 40px 40px 40px;
+    }
+
+
+#right-side-wrapper .letter .signature{
+    font-family: 'Courgette', cursive;
 }
 
 

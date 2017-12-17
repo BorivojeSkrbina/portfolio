@@ -4,6 +4,21 @@
     .pad {
     padding : 40px 0;
 }
+
+#right-side-wrapper section:after{
+    display: block;
+    
+}
+
+
+    #right-side-wrapper section{
+    padding: 30px 30px 30px 100px;
+}
+
+#right-side-wrapper section h2{
+    margin-left: 0px;
+}
+
     
 }
 

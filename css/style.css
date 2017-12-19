@@ -130,7 +130,7 @@ header .logo-overlay h3{
 /*-----------MAIN-----------*/
 
 .pad {
-    padding: 40px;
+    padding: 30px;
 
 }
 
@@ -140,7 +140,7 @@ header .logo-overlay h3{
 #right-side-wrapper section{
     position: relative;
     background: #fff;
-    padding: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
     color: #737373;
     margin-bottom: 40px;
 }
@@ -150,7 +150,7 @@ header .logo-overlay h3{
 }
 
 #right-side-wrapper section h2{
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: 10px;
 }
 
@@ -160,8 +160,8 @@ header .logo-overlay h3{
     content: '';
     width: 45px;
     height: 55px;
-    top: 40px;
-    left: 40px;
+    top: 30px;
+    left: 30px;
     background: url("assets/work.png") no-repeat center center;
     background-size: contain;
 }
@@ -171,8 +171,8 @@ header .logo-overlay h3{
     content: '';
     width: 45px;
     height: 55px;
-    top: 40px;
-    left: 40px;
+    top: 30px;
+    left: 30px;
     background: url("assets/graduate.png") no-repeat center center;
     background-size: contain;
 }
@@ -182,8 +182,8 @@ header .logo-overlay h3{
     content: '';
     width: 45px;
     height: 55px;
-    top: 40px;
-    left: 40px;
+    top: 30px;
+    left: 30px;
     background: url("assets/watch.png") no-repeat center center;
     background-size: contain;
 }
@@ -222,7 +222,7 @@ header .logo-overlay h3{
 }
 
 #right-side-wrapper .links{
-    padding: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
 }
 
 
@@ -231,9 +231,9 @@ header .logo-overlay h3{
     color: #356aa0;
 }
 
-    #right-side-wrapper .letter{
-        padding: 40px 40px 40px 40px;
-    }
+#right-side-wrapper .letter{
+    padding: 30px 30px 30px 30px;
+}
 
 
 #right-side-wrapper .letter .signature{
@@ -248,3 +248,72 @@ header .logo-overlay h3{
 .interests article {
     padding-top: 30px;
 }
+
+#right-side-wrapper .portfolio{
+    position: relative;
+    background: none;
+    padding: 0;
+    color: #737373;
+    margin-bottom: 40px;
+}
+
+/*-----------BOOTSTRAP-----------*/
+.card-columns {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+}
+
+.card-columns .card {
+    margin-bottom: 1.25rem;
+    border-radius: 0;
+}
+
+.card-columns .card img{
+    border-radius: 0;
+}
+
+.card-columns .card-head{
+    padding: 15px 15px;
+    color: #fff;
+}
+.card-columns .card-content{
+    padding: 15px;
+}
+
+.card-last{
+    background: #fff;
+}
+
+.card-last .card-body1{
+    width: 100%;
+}
+
+.card-last .card-head{
+    padding: 15px 15px;
+    color: #fff;
+}
+
+.card-last .card-content{
+    padding: 15px;
+}
+
+.card-last figure{
+    width: 100%;
+}
+
+.card-last .card-body1{
+    flex-direction: column;
+}
+
+.card-last figure img{
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+figure{
+    margin: 0;
+}
+

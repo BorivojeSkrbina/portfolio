@@ -1,7 +1,9 @@
 /*-----------GENERAL-----------*/
 html{
     font-size: 14px;
-    font-weight: 300;
+}
+.inactive{
+    overflow: hidden;
 }
 
 img{
@@ -10,6 +12,7 @@ img{
 
 p{
     line-height: 1.7;
+    font-weight: 300;
 }
 
 h2{
@@ -109,8 +112,9 @@ header .logo-overlay h3{
 .left-column .skills .bar .bar-progress{
     height: 2px;
     background: #fff;
-    width: 90%;
     position: relative;
+    transition: 1s linear;
+    width: 0;
 }
 
 .left-column .skills .bar .bar-progress span{
@@ -258,62 +262,112 @@ header .logo-overlay h3{
 }
 
 /*-----------BOOTSTRAP-----------*/
-.card-columns {
-    -webkit-column-count: 1;
-    column-count: 1;
-    -webkit-column-gap: 1.25rem;
-    column-gap: 1.25rem;
-}
 
-.card-columns .card {
-    margin-bottom: 1.25rem;
-    border-radius: 0;
-}
 
-.card-columns .card img{
-    border-radius: 0;
-}
-
-.card-columns .card-head{
-    padding: 15px 15px;
-    color: #fff;
-}
-.card-columns .card-content{
-    padding: 15px;
-}
-
-.card-last{
+.masonery .card-body1{
     background: #fff;
+    margin-bottom: 20px;
 }
 
-.card-last .card-body1{
-    width: 100%;
-}
-
-.card-last .card-head{
+.masonery .card-head{
     padding: 15px 15px;
     color: #fff;
 }
-
-.card-last .card-content{
+.masonery .card-content{
     padding: 15px;
-}
-
-.card-last figure{
-    width: 100%;
-}
-
-.card-last .card-body1{
-    flex-direction: column;
-}
-
-.card-last figure img{
-    min-height: 100%;
-    min-width: 100%;
-    object-fit: cover;
 }
 
 figure{
     margin: 0;
 }
+
+header{
+    position: relative;
+}
+
+.toggle-menu{
+    padding: 5px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    border-radius: 4px;
+}
+
+.toggle-menu span{
+    display: block;
+    height: 2px;
+    background: #000;
+    margin-bottom: 3px;
+    width: 20px;
+}
+
+.toggle-menu span:last-of-type{
+    margin-bottom: 0;
+}
+
+.menu-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    z-index: 15;
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    left: -120%;
+    top: 0;
+    z-index: 20;
+    transition: 1s ease;
+}
+
+.menu.active{
+    left: 0px;
+}
+
+.menu .side-menu{
+    height: 100vh;
+    background: #777;
+    padding: 10px;
+    min-width: 200px;
+        
+}
+
+.menu .side-menu a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*-----------ANIMACIJE-----------*/
+/*.animation{
+    visibility: hidden;
+    position: relative;
+    transition: 1s linear;
+}
+
+@keyframes slideLeft{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.slideLeft{
+    animation-name: slideLeft;
+    visibility: visible;
+    animation-duration: 1s;
+}*/
 

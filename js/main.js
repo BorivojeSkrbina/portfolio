@@ -7,6 +7,7 @@ $(window).ready(function(){
         $('.menu').addClass('active');
         $('body').addClass('inactive');
         
+        
     });
     
     $('.menu-overlay').click(function(){
@@ -183,7 +184,7 @@ $(window).on('resize', function() {
 			})
 			.pop();
 
-		containerEle.style.height = containerHeight + 'px';
+		containerEle.style.height = containerHeight - 20 + 'px';
 
 		if (typeof done === 'function') {
 			done(itemsNodeList);

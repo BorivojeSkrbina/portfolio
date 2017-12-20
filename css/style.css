@@ -2,6 +2,15 @@
 html{
     font-size: 14px;
 }
+
+body{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 1%, #e3e3e3 57%, #e3e3e3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 1%,#e3e3e3 57%,#e3e3e3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 1%,#e3e3e3 57%,#e3e3e3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+}
+
 .inactive{
     overflow: hidden;
 }
@@ -12,7 +21,6 @@ img{
 
 p{
     line-height: 1.7;
-    font-weight: 300;
 }
 
 h2{
@@ -258,7 +266,53 @@ header .logo-overlay h3{
     background: none;
     padding: 0;
     color: #737373;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+/*#right-side-wrapper .portfolio .masonery .col-md-6{
+    padding-right: 0;
+}*/
+
+#right-side-wrapper .single{
+    padding: 0;
+}
+
+#right-side-wrapper .single .card-body1{
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#right-side-wrapper .single .card-head{
+    padding: 20px 25px;
+    color: #fff;
+}
+
+#right-side-wrapper .single .card-content{
+    padding: 20px 25px;
+}
+
+#right-side-wrapper .comments{
+    padding: 0;
+    background: none;
+}
+
+#right-side-wrapper .comment{
+    background: #fff;
+}
+
+#right-side-wrapper .comments figure{
+    max-width: 20%;
+    min-width: 65px;
+    max-height: 140px;
+    overflow: hidden;
+}
+
+#right-side-wrapper .comment-content{
+    padding: 10px 15px;
+}
+
+#right-side-wrapper .comment-content{
+    padding: 10px 15px;
 }
 
 /*-----------BOOTSTRAP-----------*/
@@ -286,19 +340,22 @@ header{
 }
 
 .toggle-menu{
-    padding: 5px;
-    border: 1px solid #000;
+    padding: 10px;
+    border: 1px solid #356aa0;
     position: absolute;
     top: 20px;
     left: 20px;
     z-index: 100;
     border-radius: 4px;
+    background: #356aa0;
+    color: #fff;
+    cursor: pointer;
 }
 
 .toggle-menu span{
     display: block;
     height: 2px;
-    background: #000;
+    background: #fff;
     margin-bottom: 3px;
     width: 20px;
 }
@@ -314,7 +371,7 @@ header{
     background: rgba(0,0,0,0.5);
     top: 0;
     left: 0;
-    z-index: 15;
+    z-index: 120;
     display: none;
 }
 
@@ -322,8 +379,9 @@ header{
     position: fixed;
     left: -120%;
     top: 0;
-    z-index: 20;
+    z-index: 160;
     transition: 1s ease;
+    height: 100vh;
 }
 
 .menu.active{
@@ -332,17 +390,22 @@ header{
 
 .menu .side-menu{
     height: 100vh;
-    background: #777;
-    padding: 10px;
+    background: #fff;
+    padding: 15px 20px;
     min-width: 200px;
-        
+
 }
 
 .menu .side-menu a{
     display: block;
-    color: #fff;
+    color: #737373;
     font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.addthis_inline_share_toolbox{
+    margin-bottom: 10px;
 }
 
 

@@ -318,6 +318,9 @@ header .logo-overlay h3{
 
 /*-----------BOOTSTRAP-----------*/
 
+.masonery{
+    position: relative;
+}
 
 .masonery .card-body1{
     background: #fff;
@@ -382,6 +385,7 @@ header{
     top: 0;
     z-index: 160;
     transition: 1s ease;
+    transition-property: left;
     height: 100vh;
 }
 
@@ -390,7 +394,6 @@ header{
 }
 
 .menu .side-menu{
-    height: 100vh;
     background: #fff;
     padding: 15px 20px;
     min-width: 200px;
@@ -403,6 +406,7 @@ header{
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 5px 0;
 }
 
 .addthis_inline_share_toolbox{
@@ -435,3 +439,11 @@ header{
     animation-duration: 1s;
 }*/
 
+#map_wrapper {
+    height: 400px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}

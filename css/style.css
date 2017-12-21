@@ -241,6 +241,7 @@ header .logo-overlay h3{
 #right-side-wrapper .links a{
     text-decoration: none;
     color: #356aa0;
+    margin-right: 5px;
 }
 
 #right-side-wrapper .letter{

@@ -4,11 +4,12 @@ html{
 }
 
 body{
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(top, #ffffff 1%, #e3e3e3 57%, #e3e3e3 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ffffff 1%,#e3e3e3 57%,#e3e3e3 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ffffff 1%,#e3e3e3 57%,#e3e3e3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+background: #7300ff; /* Old browsers */
+background: -moz-linear-gradient(top, #7300ff 0%, #933aff 43%, #8b2dff 60%, #7300ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #7300ff 0%,#933aff 43%,#8b2dff 60%,#7300ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #7300ff 0%,#933aff 43%,#8b2dff 60%,#7300ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7300ff', endColorstr='#7300ff',GradientType=0 ); /* IE6-9 */
+    
 }
 
 .inactive{
@@ -28,9 +29,9 @@ h2{
 }
 
 .box-shadow{
-    -webkit-box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
+/*    -webkit-box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
     -moz-box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
-    box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
+    box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);*/
 }
 
 /*-----------HEADER-----------*/
@@ -59,7 +60,6 @@ header .logo-overlay h3{
 /*-----------LEFT SIDEBAR-----------*/
 
 .left-column{
-    background: #356aa0;
     color: #fff;
     padding: 30px 0;
 }
@@ -200,6 +200,17 @@ header .logo-overlay h3{
     background-size: contain;
 }
 
+#right-side-wrapper .contact:after{
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    content: "\f1d9";
+    width: 45px;
+    height: 55px;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+}
+
 
 #right-side-wrapper article{
     padding-top: 25px;
@@ -324,7 +335,7 @@ header .logo-overlay h3{
 
 .masonery .card-body1{
     background: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .masonery .card-head{

@@ -4,11 +4,7 @@ html{
 }
 
 body{
-background: #7300ff; /* Old browsers */
-background: -moz-linear-gradient(top, #7300ff 0%, #933aff 43%, #8b2dff 60%, #7300ff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #7300ff 0%,#933aff 43%,#8b2dff 60%,#7300ff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #7300ff 0%,#933aff 43%,#8b2dff 60%,#7300ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7300ff', endColorstr='#7300ff',GradientType=0 ); /* IE6-9 */
+background: #EFEFEF;
     
 }
 
@@ -29,9 +25,9 @@ h2{
 }
 
 .box-shadow{
-/*    -webkit-box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
+    -webkit-box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
     -moz-box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
-    box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);*/
+    box-shadow: 3px 3px 6px 0px rgba(153,153,153,1);
 }
 
 /*-----------HEADER-----------*/
@@ -206,9 +202,9 @@ header .logo-overlay h3{
     content: "\f1d9";
     width: 45px;
     height: 55px;
-    top: 30px;
+    top: 40px;
     left: 30px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
@@ -244,8 +240,8 @@ header .logo-overlay h3{
     font-weight: 300;
 }
 
-#right-side-wrapper .links{
-    padding: 30px 30px 30px 30px;
+#right-side-wrapper .links {
+    padding: 15px 30px 18px 30px;
 }
 
 
@@ -253,6 +249,7 @@ header .logo-overlay h3{
     text-decoration: none;
     color: #356aa0;
     margin-right: 5px;
+    padding: 10px 0;
 }
 
 #right-side-wrapper .letter{
@@ -424,7 +421,28 @@ header{
     margin-bottom: 10px;
 }
 
+.form-control{
+    padding: 0.65rem 0.75rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+}
 
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #356aa0;
+    border-color: #356aa0;
+}
+
+.btn {
+    line-height: 1.5;
+    padding: 0.5rem 1.5rem;
+    
+}
 
 
 

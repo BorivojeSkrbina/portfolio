@@ -38,7 +38,9 @@
     padding: 15px 100px 18px 100px;
 }
 
-
+        .portfolio-pad {
+    padding: 20px 20px;
+}
 
 }
 
@@ -55,9 +57,7 @@
         max-width: 50%;
     }
     
-        .portfolio-pad {
-    padding: 20px 20px;
-}
+
 
 }
 

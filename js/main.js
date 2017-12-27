@@ -3,7 +3,7 @@ $(window).ready(function () {
 
     $('.toggle-menu').click(function () {
 
-        $('.menu-overlay').fadeIn();
+        $('.menu-overlay').fadeIn(300);
         $('.menu').addClass('active');
         $('body').addClass('inactive');
 
@@ -12,7 +12,7 @@ $(window).ready(function () {
 
     $('.menu-overlay').click(function () {
 
-        $(this).fadeOut();
+        $(this).fadeOut(300);
         $('.menu').removeClass('active');
         $('body').removeClass('inactive');
     });

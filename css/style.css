@@ -139,11 +139,27 @@ header .logo-overlay h3{
 
 .pad {
     padding: 30px;
+}
 
+.portfolio-pad {
+    padding: 20px 0px;
 }
 
 #right-side-wrapper .section-pleft{
     padding-left: 100px;
+}
+
+#right-side-wrapper .portfolio .col-md-6,
+#right-side-wrapper .blog .col-md-6{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#right-side-wrapper .portfolio .row,
+#right-side-wrapper .blog .row{
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 /*-----------EXPERIENCES-----------*/
@@ -154,7 +170,7 @@ header .logo-overlay h3{
     background: #fff;
     padding: 30px 30px 30px 30px;
     color: #737373;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #right-side-wrapper section:last-of-type{
@@ -336,7 +352,7 @@ header .logo-overlay h3{
 
 .masonery .card-body1{
     background: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .masonery .card-head{
@@ -396,7 +412,7 @@ header{
     left: -120%;
     top: 0;
     z-index: 160;
-    transition: 1s ease;
+    transition: .5s ease;
     transition-property: left;
     height: 100vh;
 }
@@ -434,6 +450,10 @@ header{
 
 .form-group {
     margin-bottom: 2rem;
+}
+
+.form-group:last-of-type {
+    margin-bottom: 0;
 }
 
 .btn-primary {
@@ -485,7 +505,12 @@ header{
 /*-----------PORTFOLIO-----------*/
 
 .portfolio a{
+    position: relative;
+    display: block;
+}
 
+.portfolio a h5{
+    font-weight: bold;
 }
 
 .portfolio a .hover{
@@ -503,15 +528,19 @@ header{
 }
 
 .portfolio a figure{
-overflow: hidden;
+    overflow: hidden;
 }
 
 .portfolio a img{
-transition: 1s linear;
+    transition: 1s linear;
 }
 
 .portfolio a:hover img{
-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.portfolio img{
+    width: 100%;
 }
 
 

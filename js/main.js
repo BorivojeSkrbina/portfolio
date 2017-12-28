@@ -18,16 +18,29 @@ $(window).ready(function () {
     });
 
     //ANIMACIJE
-    
 
 
-    function animation() {
+
+//function animation() {
+//        var windowHeight = $(window).height();
+//        var scroll = $(window).scrollTop();
+//        $('.animation').each(function () {
+//            var pozicija = $(this).offset().top;
+//            var animacija = $(this).attr('data-animation');
+//            if (pozicija < scroll + windowHeight - 100) {
+//                $(this).addClass(animacija);
+//            }
+//        });
+//    }
+
+    function fade() {
         var windowHeight = $(window).height();
         var scroll = $(window).scrollTop();
-        $('.animation').each(function () {
+        $('section, .masonery .animated').each(function () {
             var pozicija = $(this).offset().top;
             var animacija = $(this).attr('data-animation');
             if (pozicija < scroll + windowHeight - 100) {
+                $(this).css('visibility', 'visible');
                 $(this).addClass(animacija);
             }
         });
@@ -44,19 +57,19 @@ $(window).ready(function () {
             }
         });
     }
+
+    fade();
     skill();
 
-    animation();
+
     $(window).scroll(function () {
-        animation();
+
+        fade();
         skill();
     });
 
 
 
-
-    //GOOGLE MAPS
-    
 
 });
 

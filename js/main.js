@@ -18,6 +18,8 @@ $(window).ready(function () {
     });
 
     //ANIMACIJE
+    
+
 
     function animation() {
         var windowHeight = $(window).height();

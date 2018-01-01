@@ -332,6 +332,7 @@ header .logo-overlay h3{
 
 #right-side-wrapper .comment{
     background: #fff;
+    visibility: hidden;
 }
 
 #right-side-wrapper .comments figure{

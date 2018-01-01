@@ -36,7 +36,7 @@ $(window).ready(function () {
     function fade() {
         var windowHeight = $(window).height();
         var scroll = $(window).scrollTop();
-        $('section, .masonery .animated').each(function () {
+        $('section, .masonery .animated, .comments .comment').each(function () {
             var pozicija = $(this).offset().top;
             var animacija = $(this).attr('data-animation');
             if (pozicija < scroll + windowHeight - 100) {

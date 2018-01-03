@@ -24,7 +24,9 @@
         width: 50%;
     }
 
-
+#right-side-wrapper .section-pleft{
+    padding-left: 100px;
+}
 
 }
 

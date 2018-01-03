@@ -4,7 +4,14 @@ html{
 }
 
 body{
-    background: #EFEFEF;
+    background: rgba(252,252,252,1);
+    background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(242,242,242,1) 47%, rgba(235,235,235,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,252,252,1)), color-stop(47%, rgba(242,242,242,1)), color-stop(100%, rgba(235,235,235,1)));
+    background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(242,242,242,1) 47%, rgba(235,235,235,1) 100%);
+    background: -o-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(242,242,242,1) 47%, rgba(235,235,235,1) 100%);
+    background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(242,242,242,1) 47%, rgba(235,235,235,1) 100%);
+    background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(242,242,242,1) 47%, rgba(235,235,235,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ebebeb', GradientType=0 );
 
 }
 
@@ -150,7 +157,7 @@ header .logo-overlay h3{
 }
 
 #right-side-wrapper .section-pleft{
-    padding-left: 100px;
+    padding-left: 30px;
 }
 
 #right-side-wrapper .portfolio .col-md-6,
@@ -561,39 +568,39 @@ header{
 /*-----------ANIMATE CSS-----------*/
 
 .animated {
-  animation-duration: 0.8s;
-  animation-fill-mode: both;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
 }
 
 @keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
 
-  to {
-    opacity: 1;
-    transform: none;
-  }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .fadeInDown {
-  animation-name: fadeInDown;
+    animation-name: fadeInDown;
 }
 
 
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 20px, 0);
-  }
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
 
-  to {
-    opacity: 1;
-    transform: none;
-  }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .fadeInUp {
-  animation-name: fadeInUp;
+    animation-name: fadeInUp;
 }
